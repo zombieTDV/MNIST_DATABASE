@@ -44,7 +44,7 @@ python main.py
 ```
 
 ## Project Structure
-
+```
 📦MNIST_DataBase
     ┣ 📂config
     ┃ ┣ 📜config.yaml
@@ -58,3 +58,4 @@ python main.py
     ┣ 📜main.py
     ┣ 📜Query.sql
     ┗ 📜README.md
+```
