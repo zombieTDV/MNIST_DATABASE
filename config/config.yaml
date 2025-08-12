@@ -1,0 +1,6 @@
+database_info:
+  SERVER: "localhost,1433"
+  DATABASE: "MNIST_DB"
+  USERNAME: "sa"
+  PASSWORD: "21012006zbS@"
+  DRIVER: "ODBC Driver 17 for SQL Server"

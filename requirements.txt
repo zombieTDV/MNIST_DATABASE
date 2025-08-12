@@ -1,0 +1,6 @@
+numpy>=1.23
+Pillow>=9.0
+tqdm>=4.64
+torch>=2.0.0
+torchvision>=0.15.0
+pyodbc>=4.0
