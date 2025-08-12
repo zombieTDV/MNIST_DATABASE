@@ -3,7 +3,7 @@ from src.utils import MNISTOrganizer
 if __name__ == "__main__":
     org = MNISTOrganizer()
     # # Lấy 10 ảnh mỗi label
-    buckets = org.group_by_label(limit_per_label=10, show_progress=True)
+    buckets = org.group_by_label(limit_per_label=None, show_progress=True)
     # for lbl, recs in buckets.items():
     #     print(f"label={lbl} count={len(recs)}")
 
@@ -14,5 +14,6 @@ if __name__ == "__main__":
 
     # Ghi vào DB
     org.ensure_table("MNISTImages")
+    print("Saving process started...")
     total_inserted = org.save_all_to_db(buckets, table_name="MNISTImages")
     print("Inserted into DB:", total_inserted)

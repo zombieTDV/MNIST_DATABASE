@@ -4,3 +4,4 @@ tqdm>=4.64
 torch>=2.0.0
 torchvision>=0.15.0
 pyodbc>=4.0
+PyYAML==6.0.2
