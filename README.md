@@ -1,6 +1,6 @@
 # Using DataBase cia Python
 
-Tổ chức dữ liệu (MNIST) thành các class (python). Lưu trữ xuống dưới CSDL (SQL server).
+Tổ chức dữ liệu (MNIST) thành các class (python). Lưu trữ xuống dưới CSDL (SQL server). Sử dụng Microsoft SQL Server
 
 ## Installation Guide
 
@@ -34,10 +34,12 @@ pip install -r requirements.txt
 ```
 
 ### Step 4: Set up correct configuration for database in config\config.yaml
-```bash
-pip install -r requirements.txt
+#### No SQL Server?
+    You can download it via Docker: 
+```bash    
+docker pull mcr.microsoft.com/mssql/server:2022-latest
 ```
-
+    Check out for more information about download and use Miscrosoft SQL Server via Internet.
 ### Step 5: Run the Application
 ```bash
 python main.py
