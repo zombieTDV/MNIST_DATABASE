@@ -9,18 +9,22 @@ Tổ chức dữ liệu (MNIST) thành các class (python). Lưu trữ xuống d
 
 ### Step 1: Clone the Repository
 ```bash
-git https://github.com/zombieTDV/MNIST_DataBase.git
-cd MNIST_DataBase
+git https://github.com/zombieTDV/MNIST_DATABASE.git
+cd MNIST_DATABASE
 ```
 ### Step 2: Create Virtual Environment
 ```bash
 # Create virtual environment
 python -m venv ENV
+```
 
 # Activate virtual environment
-# On Windows:
+#### On Windows:
+```bash
 ENV\Scripts\activate.bat
-# On macOS/Linux:
+```
+#### On macOS/Linux:
+```bash
 source ENV/bin/activate
 ```
 
@@ -29,7 +33,12 @@ source ENV/bin/activate
 pip install -r requirements.txt
 ```
 
-### Step 4: Run the Application
+### Step 4: Set up correct configuration for database in config\config.yaml
+```bash
+pip install -r requirements.txt
+```
+
+### Step 5: Run the Application
 ```bash
 python main.py
 ```
@@ -37,15 +46,15 @@ python main.py
 ## Project Structure
 
 📦MNIST_DataBase
- ┣ 📂config
- ┃ ┣ 📜config.yaml
- ┃ ┗ 📜settings.py
- ┣ 📂mnist_data
- ┃ ┗ 📂MNIST
- ┃
- ┣ 📂src
- ┃ ┗ 📜utils.py
- ┣ 📜.gitignore
- ┣ 📜main.py
- ┣ 📜Query.sql
- ┗ 📜README.md
+    ┣ 📂config
+    ┃ ┣ 📜config.yaml
+    ┃ ┗ 📜settings.py
+    ┣ 📂mnist_data
+    ┃ ┗ 📂MNIST
+    ┃
+    ┣ 📂src
+    ┃ ┗ 📜utils.py
+    ┣ 📜.gitignore
+    ┣ 📜main.py
+    ┣ 📜Query.sql
+    ┗ 📜README.md
