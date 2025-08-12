@@ -1,1 +1,3 @@
 ENV
+mnist_data
+__pycache__
