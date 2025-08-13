@@ -9,7 +9,7 @@ Tổ chức dữ liệu (MNIST) thành các class (python). Lưu trữ xuống d
 
 ### Step 1: Clone the Repository
 ```bash
-git https://github.com/zombieTDV/MNIST_DATABASE.git
+git clone https://github.com/zombieTDV/MNIST_DATABASE.git
 cd MNIST_DATABASE
 ```
 ### Step 2: Create Virtual Environment
