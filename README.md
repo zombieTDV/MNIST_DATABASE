@@ -40,7 +40,9 @@ pip install -r requirements.txt
 docker pull mcr.microsoft.com/mssql/server:2022-latest
 ```
     Check out for more information about download and use Miscrosoft SQL Server via Internet.
-### Step 5: Run the Application
+
+### Step 5: Create DataBase and table by running Query.sql
+### Step 6: Run the Application
 ```bash
 python main.py
 ```
